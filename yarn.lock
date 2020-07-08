@@ -2504,10 +2504,10 @@ eslint@^6.1.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-eslint@^7.3.1:
-  version "7.3.1"
-  resolved "https://registry.npm.taobao.org/eslint/download/eslint-7.3.1.tgz?cache=0&sync_timestamp=1592878266906&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint%2Fdownload%2Feslint-7.3.1.tgz#76392bd7e44468d046149ba128d1566c59acbe19"
-  integrity sha1-djkr1+REaNBGFJuhKNFWbFmsvhk=
+eslint@^7.4.0:
+  version "7.4.0"
+  resolved "https://registry.npm.taobao.org/eslint/download/eslint-7.4.0.tgz#4e35a2697e6c1972f9d6ef2b690ad319f80f206f"
+  integrity sha1-TjWiaX5sGXL51u8raQrTGfgPIG8=
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
