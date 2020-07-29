@@ -1153,12 +1153,12 @@
     regexpp "^3.0.0"
     tsutils "^3.17.1"
 
-"@typescript-eslint/eslint-plugin@^3.6.1":
-  version "3.6.1"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-3.6.1.tgz#5ced8fd2087fbb83a76973dea4a0d39d9cb4a642"
-  integrity sha1-XO2P0gh/u4OnaXPepKDTnZy0pkI=
+"@typescript-eslint/eslint-plugin@^3.7.1":
+  version "3.7.1"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-3.7.1.tgz#d144c49a9a0ffe8dd704bb179c243df76c111bc9"
+  integrity sha1-0UTEmpoP/o3XBLsXnCQ992wRG8k=
   dependencies:
-    "@typescript-eslint/experimental-utils" "3.6.1"
+    "@typescript-eslint/experimental-utils" "3.7.1"
     debug "^4.1.1"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
