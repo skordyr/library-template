@@ -5960,10 +5960,10 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tsdx@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.npm.taobao.org/tsdx/download/tsdx-0.13.2.tgz#e6b0d5e52fadb3dd993c26887b9b75acd438cd05"
-  integrity sha1-5rDV5S+ts92ZPCaIe5t1rNQ4zQU=
+tsdx@^0.13.3:
+  version "0.13.3"
+  resolved "https://registry.npm.taobao.org/tsdx/download/tsdx-0.13.3.tgz#b8a23ed1cb06f1d00bfd0f541f5d3cac90b611f5"
+  integrity sha1-uKI+0csG8dAL/Q9UH108rJC2EfU=
   dependencies:
     "@babel/core" "^7.4.4"
     "@babel/helper-module-imports" "^7.0.0"
