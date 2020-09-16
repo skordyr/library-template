@@ -2600,10 +2600,10 @@ eslint@^6.1.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-eslint@^7.8.1:
-  version "7.8.1"
-  resolved "https://registry.npm.taobao.org/eslint/download/eslint-7.8.1.tgz#e59de3573fb6a5be8ff526c791571646d124a8fa"
-  integrity sha1-5Z3jVz+2pb6P9SbHkVcWRtEkqPo=
+eslint@^7.9.0:
+  version "7.9.0"
+  resolved "https://registry.npm.taobao.org/eslint/download/eslint-7.9.0.tgz?cache=0&sync_timestamp=1599934709777&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint%2Fdownload%2Feslint-7.9.0.tgz#522aeccc5c3a19017cf0cb46ebfd660a79acf337"
+  integrity sha1-UirszFw6GQF88MtG6/1mCnms8zc=
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@eslint/eslintrc" "^0.1.3"
