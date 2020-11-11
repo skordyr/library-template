@@ -1992,6 +1992,14 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+call-bind@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/call-bind/download/call-bind-1.0.0.tgz#24127054bb3f9bdcb4b1fb82418186072f77b8ce"
+  integrity sha1-JBJwVLs/m9y0sfuCQYGGBy93uM4=
+  dependencies:
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.0"
+
 callsites@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/callsites/download/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
@@ -2204,10 +2212,10 @@ concat-map@0.0.1:
   resolved "https://registry.npm.taobao.org/concat-map/download/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-confusing-browser-globals@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.npm.taobao.org/confusing-browser-globals/download/confusing-browser-globals-1.0.9.tgz?cache=0&sync_timestamp=1575504220073&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fconfusing-browser-globals%2Fdownload%2Fconfusing-browser-globals-1.0.9.tgz#72bc13b483c0276801681871d4898516f8f54fdd"
-  integrity sha1-crwTtIPAJ2gBaBhx1ImFFvj1T90=
+confusing-browser-globals@^1.0.10, confusing-browser-globals@^1.0.9:
+  version "1.0.10"
+  resolved "https://registry.npm.taobao.org/confusing-browser-globals/download/confusing-browser-globals-1.0.10.tgz#30d1e7f3d1b882b25ec4933d1d1adac353d20a59"
+  integrity sha1-MNHn89G4grJexJM9HRraw1PSClk=
 
 contains-path@^0.1.0:
   version "0.1.0"
@@ -2370,7 +2378,7 @@ defaults@^1.0.3:
   dependencies:
     clone "^1.0.2"
 
-define-properties@^1.1.2, define-properties@^1.1.3:
+define-properties@^1.1.3:
   version "1.1.3"
   resolved "https://registry.npm.taobao.org/define-properties/download/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
   integrity sha1-z4jabL7ib+bbcJT2HYcMvYTO6fE=
@@ -2542,13 +2550,13 @@ escodegen@^1.11.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-airbnb-base@^14.2.0:
-  version "14.2.0"
-  resolved "https://registry.npm.taobao.org/eslint-config-airbnb-base/download/eslint-config-airbnb-base-14.2.0.tgz?cache=0&sync_timestamp=1591857436737&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-config-airbnb-base%2Fdownload%2Feslint-config-airbnb-base-14.2.0.tgz#fe89c24b3f9dc8008c9c0d0d88c28f95ed65e9c4"
-  integrity sha1-/onCSz+dyACMnA0NiMKPle1l6cQ=
+eslint-config-airbnb-base@^14.2.1:
+  version "14.2.1"
+  resolved "https://registry.npm.taobao.org/eslint-config-airbnb-base/download/eslint-config-airbnb-base-14.2.1.tgz?cache=0&sync_timestamp=1604700620552&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint-config-airbnb-base%2Fdownload%2Feslint-config-airbnb-base-14.2.1.tgz#8a2eb38455dc5a312550193b319cdaeef042cd1e"
+  integrity sha1-ii6zhFXcWjElUBk7MZza7vBCzR4=
   dependencies:
-    confusing-browser-globals "^1.0.9"
-    object.assign "^4.1.0"
+    confusing-browser-globals "^1.0.10"
+    object.assign "^4.1.2"
     object.entries "^1.1.2"
 
 eslint-config-prettier@^6.0.0:
@@ -3167,6 +3175,15 @@ get-caller-file@^2.0.1:
   resolved "https://registry.npm.taobao.org/get-caller-file/download/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha1-T5RBKoLbMvNuOwuXQfipf+sDH34=
 
+get-intrinsic@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/get-intrinsic/download/get-intrinsic-1.0.1.tgz#94a9768fcbdd0595a1c9273aacf4c89d075631be"
+  integrity sha1-lKl2j8vdBZWhySc6rPTInQdWMb4=
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
+
 get-own-enumerable-property-symbols@^3.0.0:
   version "3.0.2"
   resolved "https://registry.npm.taobao.org/get-own-enumerable-property-symbols/download/get-own-enumerable-property-symbols-3.0.2.tgz?cache=0&sync_timestamp=1575993668197&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fget-own-enumerable-property-symbols%2Fdownload%2Fget-own-enumerable-property-symbols-3.0.2.tgz#b5fde77f22cbe35f390b4e089922c50bce6ef664"
@@ -3294,7 +3311,7 @@ has-flag@^4.0.0:
   resolved "https://registry.npm.taobao.org/has-flag/download/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
 
-has-symbols@^1.0.0, has-symbols@^1.0.1:
+has-symbols@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/has-symbols/download/has-symbols-1.0.1.tgz?cache=0&sync_timestamp=1573950719586&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhas-symbols%2Fdownload%2Fhas-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
   integrity sha1-n1IUdYpEGWxAbZvXbOv4HsLdMeg=
@@ -4773,7 +4790,7 @@ object-inspect@^1.7.0:
   resolved "https://registry.npm.taobao.org/object-inspect/download/object-inspect-1.8.0.tgz?cache=0&sync_timestamp=1592545089271&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fobject-inspect%2Fdownload%2Fobject-inspect-1.8.0.tgz#df807e5ecf53a609cc6bfe93eac3cc7be5b3a9d0"
   integrity sha1-34B+Xs9TpgnMa/6T6sPMe+WzqdA=
 
-object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
+object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/object-keys/download/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha1-HEfyct8nfzsdrwYWd9nILiMixg4=
@@ -4785,15 +4802,15 @@ object-visit@^1.0.0:
   dependencies:
     isobject "^3.0.0"
 
-object.assign@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npm.taobao.org/object.assign/download/object.assign-4.1.0.tgz#968bf1100d7956bb3ca086f006f846b3bc4008da"
-  integrity sha1-lovxEA15Vrs8oIbwBvhGs7xACNo=
+object.assign@^4.1.0, object.assign@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.npm.taobao.org/object.assign/download/object.assign-4.1.2.tgz#0ed54a342eceb37b38ff76eb831a0e788cb63940"
+  integrity sha1-DtVKNC7Os3s4/3brgxoOeIy2OUA=
   dependencies:
-    define-properties "^1.1.2"
-    function-bind "^1.1.1"
-    has-symbols "^1.0.0"
-    object-keys "^1.0.11"
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
+    has-symbols "^1.0.1"
+    object-keys "^1.1.1"
 
 object.entries@^1.1.1, object.entries@^1.1.2:
   version "1.1.2"
